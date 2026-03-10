@@ -57,32 +57,40 @@ Agent-based AI architecture
 🛠 Installation
 
 Clone the repository:
+
 git clone https://github.com/yourusername/multi-agent-ai-research-assistant.git
 
 Navigate to the backend folder:
+
 cd backend
 
 Install dependencies:
+
 pip install -r requirements.txt
 
 Run the server:
+
 python -m uvicorn main:app --reload
 
 API Documentation
 
 After running the server open:
+
 http://127.0.0.1:8000/docs
+
 We will see the interactive FastAPI Swagger UI to test endpoints.
 
 📊 Example API Request
 
 Input:
+
 POST /research
 {
   "topic": "Artificial Intelligence in Healthcare"
 }
 
 Output:
+
 {
   "plan": [
     "Search information",
