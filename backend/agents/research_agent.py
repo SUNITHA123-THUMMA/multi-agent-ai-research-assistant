@@ -1,4 +1,4 @@
-from tools.web_search import search_web
+from backend.tools.web_search import search_web
 
 def research_topic(topic):
 
