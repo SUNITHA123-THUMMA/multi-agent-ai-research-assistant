@@ -3,7 +3,7 @@ from pydantic import BaseModel
 
 from backend.agents.planner_agent import create_plan
 from backend.agents.research_agent import research_topic
-from backend.agents.summarizer_agent import summarize
+from backend.agents.summarizer_agent import summarize_text
 from backend.agents.writer_agent import write_report
 
 app = FastAPI()
